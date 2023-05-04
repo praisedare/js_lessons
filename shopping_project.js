@@ -94,7 +94,7 @@ function Cart() {
 
         let failTest = (...reason) => {
             console.log('    %cTest failed ❌', 'color: red');
-            console.log('    %cReason:', ...reason);
+            console.log('    Reason:', ...reason);
             return false;
         };
 
